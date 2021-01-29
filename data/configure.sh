@@ -41,8 +41,7 @@ function install() {
 
     ls -la /tmp/${file_dir}
     cp -f /tmp/${file_dir}/frpc ${app_path}/
-    rm -rf /tmp/${file_name}
-    rm -rf /tmp/${file_dir}
+
     ls -la $app_path
 }
 
