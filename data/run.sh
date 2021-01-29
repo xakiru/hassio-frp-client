@@ -4,7 +4,9 @@ set +u
 WAIT_PIDS=()
 ADDON_PATH='/share/frp'
 CONFIG_PATH='/share/frp/frpc.ini'
-
+echo Hello world!
+ls /usr/src
+echo Hello world!
 function stop_frpc() {
     bashio::log.info "Shutdown frpc client"
     kill -15 "${WAIT_PIDS[@]}"
