@@ -30,8 +30,8 @@ function select_machine() {
 
 function install() {
     local machine=$(select_machine)
-    local file_name="frp_${version}_linux_${machine}.tar.gz"
-    local file_url="${frp_url}v${version}/${file_name}"
+    local file_name="frp_0.35.1_linux_arm.tar.gz"
+    local file_url="${frp_url}/${file_name}"
     local file_dir=$(echo ${file_name} | sed 's/.tar.gz//')
 
     mkdir -p /tmp/$file_dir
