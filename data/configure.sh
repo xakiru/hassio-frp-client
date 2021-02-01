@@ -2,7 +2,7 @@
 
 build_arch=$1
 version=$2
-frp_url="https://github.com/fatedier/frp/releases/latest/download"
+frp_url="https://github.com/fatedier/frp/releases/download/v0.35.1"
 app_path="/usr/src"
 
 function select_machine() {
